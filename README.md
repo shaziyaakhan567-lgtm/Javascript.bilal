@@ -127,3 +127,32 @@ if (n % 3 == 0 && n % 5 == 0)
     console.log("Divisible by both 3 and 5");
 else
     console.log("Not divisible by both");
+
+let a = 10, b = 25, c = 15;
+
+if (a >= b && a >= c)
+    console.log("Largest:", a);
+else if (b >= a && b >= c)
+    console.log("Largest:", b);
+else
+    console.log("Largest:", c);
+
+
+let n = 5, fact = 1;
+
+for (let i = 1; i <= n; i++) {
+    fact *= i;
+}
+
+console.log("Factorial:", fact);
+
+
+let sum = 0;
+
+for (let i = 1; i <= 100; i += 2) {
+    sum += i;
+}
+
+console.log("Sum of odd numbers:", sum);
+
+
